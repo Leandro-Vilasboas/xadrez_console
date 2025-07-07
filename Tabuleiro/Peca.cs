@@ -43,7 +43,13 @@
 
         public bool movimentoPossivel(Posicao pos)
         {
-            return movimentosPossiveis()[pos.linha, pos.coluna];
+            try {
+                return movimentosPossiveis()[pos.linha, pos.coluna];
+            }
+            catch
+            {
+                throw new TabuleiroException("Insira uma posição válida!");
+            }
         }
 
         public abstract bool[,] movimentosPossiveis();
