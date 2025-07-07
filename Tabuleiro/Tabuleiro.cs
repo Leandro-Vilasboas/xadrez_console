@@ -20,6 +20,10 @@
 
         public Peca peca(Posicao pos)
         {
+            if (!posicaoValida(pos) || pos == null)
+            {
+                throw new TabuleiroException("Insira uma posição válida!");
+            }
             return pecas[pos.linha, pos.coluna];
         }
 
