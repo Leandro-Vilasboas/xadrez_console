@@ -51,14 +51,14 @@
     <Compile Include="tabuleiro\Tabuleiro.cs" />
     <Compile Include="tabuleiro\TabuleiroException.cs" />
     <Compile Include="Tela.cs" />
-    <Compile Include="xadrez\Bispo.cs" />
-    <Compile Include="xadrez\Cavalo.cs" />
-    <Compile Include="xadrez\Dama.cs" />
+    <Compile Include="xadrez\pecas\Bispo.cs" />
+    <Compile Include="xadrez\pecas\Cavalo.cs" />
+    <Compile Include="xadrez\pecas\Dama.cs" />
     <Compile Include="xadrez\PartidaDeXadrez.cs" />
-    <Compile Include="xadrez\Peao.cs" />
+    <Compile Include="xadrez\pecas\Peao.cs" />
     <Compile Include="xadrez\PosicaoXadrez.cs" />
-    <Compile Include="xadrez\Rei.cs" />
-    <Compile Include="xadrez\Torre.cs" />
+    <Compile Include="xadrez\pecas\Rei.cs" />
+    <Compile Include="xadrez\pecas\Torre.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
