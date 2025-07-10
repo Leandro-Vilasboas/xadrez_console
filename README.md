@@ -49,3 +49,33 @@ git clone https://github.com/seu-usuario/xadrez-console.git
 Abra o projeto no Visual Studio 2022
 
 Execute com Ctrl + F5 ou pelo botão de execução
+```
+
+---
+
+# 🕹️ Como Jogar
+O jogo é totalmente controlado pelo teclado, direto no console. Veja como funciona:
+
+🎯 Objetivo
+* Capture o rei adversário seguindo as regras oficiais do xadrez.
+
+▶️ Instruções Passo a Passo
+* Escolha a origem:
+* Digite a posição da peça que você deseja mover.
+* Exemplo: e2 (peão branco da frente).
+
+Visualize os movimentos possíveis:
+* O sistema exibirá o tabuleiro com os movimentos possíveis destacados.
+
+Escolha o destino:
+* Digite a posição para onde você quer mover a peça.
+* Exemplo: e4
+
+O jogo atualiza:
+* O tabuleiro será atualizado com a nova posição da peça.
+* Se uma peça for capturada, ela será listada na área de "Peças capturadas".
+
+Turno alternado:
+* O jogo informa qual jogador (brancas ou pretas) está com a vez.
+
+![Gameplay ConsoleChess](ConsoleChess.gif)
